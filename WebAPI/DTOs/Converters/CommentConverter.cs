@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CSharp_Project.Models;
-using CSharp_Project.Request;
-namespace WebAPI.DTOs.Converters
+using WebAPI.DTOs.Request;
+using Domain.Models;
+namespace WebAPI.DTOs.Converters 
+{ 
     public class CommentConverter
     {
         public CommentRequest toReq(CommentTable table)

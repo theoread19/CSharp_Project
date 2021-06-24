@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Diagnostics;
@@ -9,7 +10,7 @@ using Microsoft.Extensions.Logging;
 
 #nullable disable
 
-namespace CSharp_Project.Models
+namespace Infrastructure.ContextConfigure
 {
     public partial class C_ProjectDBContext : DbContext
     {

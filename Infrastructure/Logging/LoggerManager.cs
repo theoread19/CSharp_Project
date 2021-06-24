@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CSharp_Project;
+using Domain.Logging;
 using NLog;
-namespace LoggerService
+namespace Infrastructure.Logging
 {
     public class LoggerManager : ILoggerManager
     {

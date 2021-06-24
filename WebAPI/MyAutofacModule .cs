@@ -1,13 +1,12 @@
 ﻿using Autofac;
+using Domain.Repository;
+using Infrastructure.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CSharp_Project.Services;
-using CSharp_Project.Repository;
-using CSharp_Project.Repository.iplm;
-using CSharp_Project.Models;
-using CSharp_Project.Services.iplm;
+using WebAPI.Services;
+using WebAPI.Services.impl;
 
 namespace WebAPI
 {

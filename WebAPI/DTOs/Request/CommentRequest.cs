@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebAPI.DTOs.Request
+namespace WebAPI.DTOs.Request 
+{
     public class CommentRequest
     {
         public long Id { get; set; }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LoggerService
+namespace Domain.Logging
 {
     public interface ILoggerManager
     {

@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CSharp_Project.Models;
+using Microsoft.EntityFrameworkCore;
+using Domain.Repository;
+using Domain.Models;
+using Infrastructure.ContextConfigure;
 
-namespace CSharp_Project.Repository.iplm
+namespace Infrastructure.Repository
 {
     public class CommentRepository : BaseRepository<CommentTable>, ICommentRepository
     {

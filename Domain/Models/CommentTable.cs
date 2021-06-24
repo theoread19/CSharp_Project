@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace CSharp_Project.Models
+namespace Domain.Models
 {
     public partial class CommentTable
     {

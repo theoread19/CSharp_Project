@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace CSharp_Project
+namespace Infrastructure.Logging
 {
     public class ErrorDetails
     {

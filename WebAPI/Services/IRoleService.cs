@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CSharp_Project.Request;
-namespace CSharp_Project.Services
+using WebAPI.DTOs.Request;
+
+namespace WebAPI.Services
 {
     public interface IRoleService
     {

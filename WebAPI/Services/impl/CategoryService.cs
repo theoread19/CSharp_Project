@@ -1,13 +1,13 @@
-﻿using CSharp_Project.Request;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CSharp_Project.Models;
-using CSharp_Project.Converters;
-using CSharp_Project.Repository;
+using Domain.Repository;
+using WebAPI.DTOs.Converters;
+using Domain.Models;
+using WebAPI.DTOs.Request;
 
-namespace WebAPI.Services
+namespace WebAPI.Services.impl
 {
     public class CategoryService : ICategoryService
     {

@@ -1,12 +1,11 @@
-﻿
+﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CSharp_Project.Request;
-using CSharp_Project.Services;
-using LoggerService;
-using Microsoft.AspNetCore.Mvc;
+using WebAPI.DTOs.Request;
+using Domain.Logging;
+using WebAPI.Services;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace WebAPI.Controllers

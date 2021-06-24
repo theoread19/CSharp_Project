@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CSharp_Project.Models;
+using Domain.Repository;
+using Infrastructure.ContextConfigure;
 using Microsoft.EntityFrameworkCore;
 
-namespace CSharp_Project.Repository.iplm
+namespace Infrastructure.Repository
 {
     public abstract class BaseRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {

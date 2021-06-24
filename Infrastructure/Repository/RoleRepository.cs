@@ -1,11 +1,13 @@
-﻿using CSharp_Project.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Domain.Repository;
+using Domain.Models;
+using Infrastructure.ContextConfigure;
 
-namespace CSharp_Project.Repository.iplm
+namespace Infrastructure.Repository
 {
     public class RoleRepository : BaseRepository<RoleTable>, IRoleRepository
     {
